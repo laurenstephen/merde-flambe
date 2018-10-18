@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyRecipeBookRazor", "MyRecipeBookRazor\MyRecipeBookRazor.csproj", "{3766D4A4-133B-4054-8469-8EFDC2130813}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBook.Entities", "RecipeBook.Entities\RecipeBook.Entities.csproj", "{FEFEEE2E-7053-4468-B2FA-97C822EA37DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3766D4A4-133B-4054-8469-8EFDC2130813}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3766D4A4-133B-4054-8469-8EFDC2130813}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3766D4A4-133B-4054-8469-8EFDC2130813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFEEE2E-7053-4468-B2FA-97C822EA37DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFEEE2E-7053-4468-B2FA-97C822EA37DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFEEE2E-7053-4468-B2FA-97C822EA37DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFEEE2E-7053-4468-B2FA-97C822EA37DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
