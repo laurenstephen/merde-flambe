@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using RecipeBook.Entities.Models;
 using System;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace RecipeBook.Entities
 {
-    public class RecipesDbContext : IdentityDbContext<UserAccount>
+    public class RecipesDbContext : IdentityDbContext<IdentityUser>
     {
         public Ingredient Ingredients { get; set; }
         public Recipe Recipes { get; set; }
